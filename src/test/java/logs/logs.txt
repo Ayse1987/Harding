@@ -1,0 +1,19 @@
+2022-03-01 14:01:00 INFO  US_01_StepDef:16 - went to amazon url
+2022-03-01 14:01:01 INFO  US_02_StepDef:31 - Navigated to sign in page
+2022-03-01 14:01:02 INFO  US_02_StepDef:37 - Valid email is entered
+2022-03-01 14:01:03 INFO  US_02_StepDef:43 - clicked to continue button
+2022-03-01 14:01:03 INFO  US_02_StepDef:50 - entered valid password
+2022-03-01 14:01:03 INFO  US_02_StepDef:56 - clicked sign in button
+
+2022-03-01 14:17:08 INFO  US_01_StepDef:16 - went to amazon url
+2022-03-01 14:17:11 INFO  US_02_StepDef:31 - Navigated to sign in page
+2022-03-01 14:17:11 INFO  US_02_StepDef:37 - Valid email is entered
+2022-03-01 14:17:13 INFO  US_01_StepDef:16 - went to amazon url
+2022-03-01 14:17:14 INFO  US_02_StepDef:43 - clicked to continue button
+2022-03-01 14:17:14 INFO  US_02_StepDef:50 - entered valid password
+2022-03-01 14:17:14 INFO  US_02_StepDef:56 - clicked sign in button
+2022-03-01 14:17:15 INFO  US_02_StepDef:31 - Navigated to sign in page
+2022-03-01 14:17:17 INFO  US_02_StepDef:43 - clicked to continue button
+2022-03-01 14:17:17 INFO  US_02_StepDef:37 - Valid email is entered
+2022-03-01 14:17:20 INFO  US_02_StepDef:43 - clicked to continue button
+2022-03-01 14:17:21 INFO  US_02_StepDef:56 - clicked sign in button
