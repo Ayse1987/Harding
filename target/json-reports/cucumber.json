@@ -3,213 +3,1281 @@
     "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "",
+        "line": 4,
+        "name": "same steps before coming to application form",
         "description": "",
         "type": "background",
         "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 15356104400,
+              "duration": 11240551200,
               "status": "passed"
             },
-            "line": 4,
-            "name": "go to the Amazon url",
+            "line": 5,
+            "name": "user navigates to Harding homepage",
             "match": {
-              "location": "ui.stepDef.US_01_StepDef.go_to_the_Amazon_url()"
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2102549300,
+              "duration": 1262349400,
               "status": "passed"
             },
-            "line": 5,
-            "name": "navigate to sign in page",
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
             "match": {
-              "location": "ui.stepDef.US_02_StepDef.navigate_to_sign_in_page()"
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81782400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 986939400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35903400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326129800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97737200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: chrome\u003d114.0.5735.133)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VEAB1J9\u0027, ip: \u0027192.168.1.145\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 656358de125aaf0360b2b8f98fa94faa\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)\r\n\tat com.harding.qa.utilities.JSUtilities.scrollToElement(JSUtilities.java:23)\r\n\tat com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button(jobApplicationStepDefinitions.java:82)\r\n\tat ✽.user clicks Apply button(file:///C:/Users/admin/IdeaProjects/Harding/src/test/resources/hardingFeatures/jobApplication.feature:12)\r\n",
+              "duration": 115678000,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2022-03-01T14:16:58.224Z",
-        "line": 19,
-        "name": "User should not be able to sign in with invalid credentials",
+        "start_timestamp": "2023-06-14T09:29:37.121Z",
+        "line": 56,
+        "name": "testing mandatory fields",
         "description": "",
-        "id": "us-02-sign-in;user-should-not-be-able-to-sign-in-with-invalid-credentials",
+        "id": "job-application;testing-mandatory-fields;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 147991800,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "enter invalid email address to the email box",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.enter_invalid_email_address_to_the_email_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1458000800,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "click continue button",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.click_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 136999700,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "verify failure message is displayed",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.verify_email_failure_message_is_displayed()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 104996700,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "clear email box",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.clear_email_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216001400,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "enter valid email address to the email box",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.enter_valid_email_address_to_the_email_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2976164900,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "click continue button",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.click_continue_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 151997400,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "enter invalid password to password box",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.enter_invalid_password_to_password_box()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 307003000,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "click sign-in button",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.click_sign_in_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#continue\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TC77HVK\u0027, ip: \u0027192.168.43.185\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\Ayse\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64199}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e6ab41cc41a6dbc7aea4afbc3101d888\n*** Element info: {Using\u003did, value\u003dcontinue}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat ui.stepDef.US_02_StepDef.verify_email_failure_message_is_displayed(US_02_StepDef.java:73)\r\n\tat ✽.verify failure message is displayed(file:///C:/Users/Ayse/IdeaProjects/AmazonProject/src/test/resources/uiFeatures/US_02.feature:29)\r\n",
-              "duration": 15046461400,
-              "status": "failed"
-            },
-            "line": 29,
-            "name": "verify failure message is displayed",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.verify_email_failure_message_is_displayed()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@readStates1"
-          },
-          {
-            "name": "@TC_03"
-          }
-        ]
-      }
-    ],
-    "name": "US_02 Sign in",
-    "description": "",
-    "id": "us-02-sign-in",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/uiFeatures/US_02.feature",
-    "tags": []
-  }
-]junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\t\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\t\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\t\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\t\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\t\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\t\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\t\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\t\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\t\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\t\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\t\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\t\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\t\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\r\n\t\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\nCaused by: java.lang.reflect.InvocationTargetException\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)\r\n\tat java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)\r\n\tat com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)\r\n\tat org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)\r\n\tat org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)\r\n\tat org.openqa.selenium.json.Json.toJson(Json.java:42)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat ui.stepDef.US_02_StepDef.verify_sign_in_is_successful(US_02_StepDef.java:61)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:73)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//*[text()\u003d\u0027Hello, Necip\u0027])[1]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TC77HVK\u0027, ip: \u0027192.168.43.185\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\Ayse\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e964cfd54f081023ade8c5e23777160a\n*** Element info: {Using\u003dxpath, value\u003d(//*[text()\u003d\u0027Hello, Necip\u0027])[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)\r\n\tat org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)\r\n\tat org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)\r\n\tat org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)\r\n\t... 67 more\r\n",
-              "duration": 15088969700,
-              "status": "failed"
-            },
-            "line": 14,
-            "name": "verify sign in is successful",
-            "match": {
-              "location": "ui.stepDef.US_02_StepDef.verify_sign_in_is_successful()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1005500,
               "status": "skipped"
             },
-            "line": 15,
-            "name": "close driver",
+            "line": 49,
+            "name": "user fills the mandatory fields with \"\", \"Nemeth\", \"agnes1@gmail.com\", \"07777111111\", \"WORD\", \"Bristol\"",
             "match": {
-              "location": "ui.stepDef.US_02_StepDef.closeDriver()"
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Nemeth\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"agnes1@gmail.com\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"07777111111\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"WORD\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Bristol\"",
+                  "offset": 94
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@readStates2"
+            "name": "@JobApplication"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "same steps before coming to application form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1392425300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to Harding homepage",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
+            },
+            "keyword": "Given "
           },
           {
-            "name": "@TC_02"
+            "result": {
+              "duration": 981374800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67818500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 471604100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35896900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 354258500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58841300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1219194400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58457500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T09:29:51.476Z",
+        "line": 57,
+        "name": "testing mandatory fields",
+        "description": "",
+        "id": "job-application;testing-mandatory-fields;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4550242600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user fills the mandatory fields with \"Agnes\", \"\", \"agnes2@gmail.com\", \"07777111111\", \"WORD\", \"Bristol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agnes\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"agnes2@gmail.com\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"07777111111\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"WORD\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"Bristol\"",
+                  "offset": 93
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 470285400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154101600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1379166300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobApplication"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "same steps before coming to application form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5952473500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to Harding homepage",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1113727800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85770800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 968113800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44568900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322917800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67819100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found\n  (Session info: chrome\u003d114.0.5735.133)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-VEAB1J9\u0027, ip: \u0027192.168.1.145\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56853}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 7d5b724353ebe56ef974c8693984a017\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)\r\n\tat org.openqa.selenium.interactions.Actions.perform(Actions.java:595)\r\n\tat com.harding.qa.utilities.ReusableMethods.hover(ReusableMethods.java:34)\r\n\tat com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button(jobApplicationStepDefinitions.java:83)\r\n\tat ✽.user clicks Apply button(file:///C:/Users/admin/IdeaProjects/Harding/src/test/resources/hardingFeatures/jobApplication.feature:12)\r\n",
+              "duration": 160568800,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T09:30:02.697Z",
+        "line": 58,
+        "name": "testing mandatory fields",
+        "description": "",
+        "id": "job-application;testing-mandatory-fields;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "user fills the mandatory fields with \"Agnes\", \"Nemeth\", \"\", \"07777111111\", \"WORD\", \"Bristol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agnes\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Nemeth\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"07777111111\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"WORD\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"Bristol\"",
+                  "offset": 83
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobApplication"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "same steps before coming to application form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1372329500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to Harding homepage",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 958976100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60836900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401825400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41889600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 313160400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64827100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1209877900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68327900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T09:30:11.429Z",
+        "line": 59,
+        "name": "testing mandatory fields",
+        "description": "",
+        "id": "job-application;testing-mandatory-fields;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4423599200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user fills the mandatory fields with \"Agnes\", \"Nemeth\", \"agnes3@gmail.com\", \"\", \"WORD\", \"Bristol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agnes\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Nemeth\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"agnes3@gmail.com\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"WORD\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"Bristol\"",
+                  "offset": 88
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179520800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63827300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 835818800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobApplication"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "same steps before coming to application form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5846123500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to Harding homepage",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1104255800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70808900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1023529900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30917300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 311260700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63829100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1516902400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53857200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T09:30:21.438Z",
+        "line": 60,
+        "name": "testing mandatory fields",
+        "description": "",
+        "id": "job-application;testing-mandatory-fields;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4410393000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user fills the mandatory fields with \"Agnes\", \"Nemeth\", \"agnes5@gmail.com\", \"07777111111\", \"WORD\", \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agnes\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Nemeth\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"agnes5@gmail.com\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"07777111111\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"WORD\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 99
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250742900,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50861800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 837418600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobApplication"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "same steps before coming to application form",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9803594900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to Harding homepage",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_navigates_to_harding_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1192324500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user hoovers Career link and click Landside link",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_hoovers_career_link_and_click_landside_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71806400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verifies landside career page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_career_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 965452300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks See Vacancies button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_see_vacancies_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40889100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies landside department page",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_verifies_landside_department_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305785600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user searches for \"Procurement Coordinator\" job in the search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Procurement Coordinator\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_searches_for_job_in_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58842500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user verifies the job",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesTheJob()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1308374300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks Apply button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.user_clicks_apply_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69330000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies personal information title",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userVerifiesPersonalInformationTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T09:30:37.022Z",
+        "line": 61,
+        "name": "testing mandatory fields",
+        "description": "",
+        "id": "job-application;testing-mandatory-fields;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4479685500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user fills the mandatory fields with \"Agnes\", \"Nemeth\", \"agnes4@gmail.com\", \"07777111111\", \"\", \"Bristol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agnes\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Nemeth\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"agnes4@gmail.com\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"07777111111\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"Bristol\"",
+                  "offset": 95
+                }
+              ],
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userFillsTheMandatoryFieldsWith(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154587400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks next button",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userClicksNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49867500,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user should see error message",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.userShouldSeeErrorMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1207785800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "close driver",
+            "match": {
+              "location": "com.harding.qa.stepDefinitions.jobApplicationStepDefinitions.closeDriver()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobApplication"
           }
         ]
       }
     ],
-    "name": "US_02 Sign in",
+    "name": "Job Application",
     "description": "",
-    "id": "us-02-sign-in",
+    "id": "job-application",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/uiFeatures/US_02.feature",
+    "uri": "file:src/test/resources/hardingFeatures/jobApplication.feature",
     "tags": []
   }
 ]
